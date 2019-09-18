@@ -1,0 +1,60 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+body {
+    background-color:#9A0808;
+}
+
+.images {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+.mainsection {
+    display: flex;
+}
+
+.sidenav {
+    flex: 1;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #7D0808;
+    line-height: 2;
+}
+
+h2 {
+background-color: lightgrey;
+text-align: center;
+}
+a {
+    color:orange;
+}
+
+.sidebar2 {
+    flex: 1;
+    max-width: 200px;
+    background-color: white;
+}
+
+.content {
+    flex: 1;
+    color: white;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    text-align: center;
+    color: white;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    background-color: orange;
+}
